@@ -1,0 +1,15 @@
+/* CSS Document */
+
+.details-text {
+	text-indent: 2em;
+	font-size: 16px;
+	padding: 10px 0px;
+}
+.details-text p{
+	padding: 10px 0;
+}
+@media screen and (max-width:480px){
+	.details-text img {
+		width: 100%;
+	}
+}

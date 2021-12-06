@@ -1,0 +1,36 @@
+/* CSS Document */
+
+.Title h2::after,
+.Title h2::before{
+	content: "——";
+	transition: all 0.35s ease-in-out;
+}
+.Title h2:hover::after,
+.Title h2:hover::before {
+	color: skyblue;
+}
+
+.two {
+	display: none;
+}
+@media screen and (max-width:480px){
+	.two {
+		display: block;
+	}
+	.two p{
+		text-indent: 2em;
+	}
+	.one {
+		display: none;
+	}
+	.form label {
+		text-align: left!important;
+	}
+}
+
+.form label {
+	color: black;
+	font-weight: bolder;
+	width: 200px;
+	text-align: right;
+}

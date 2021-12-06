@@ -1,0 +1,7 @@
+/* CSS Document */
+
+.FAQ ul li {
+	margin: 30px;
+	list-style: disc;
+	border-bottom: 1px solid #ccc;
+}

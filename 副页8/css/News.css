@@ -1,0 +1,61 @@
+/* CSS Document */
+
+.card {
+	margin: 15px;
+	padding-bottom: 15px;
+	border: none;
+	border-bottom: 1px solid #ccc;
+	border-radius: 0;
+}
+.card-img {
+	width: 100%;
+	overflow: hidden;
+}
+@media screen and (min-width:768px){
+	.card-img {
+		max-width: 250px;
+	}
+}
+.card-img:hover img {
+	transform: scale(1.1);
+}
+.card-title:hover a{
+	margin-left: 5px;
+	color: skyblue;
+	text-decoration: underline;
+}
+.card .text-secondary {
+	font-size: 17px;
+}
+.card-text {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	font-size: 15px;
+}
+.card-text:hover a{
+	color: skyblue;
+	text-decoration: underline;
+}
+.card-img img,
+.card-title a,
+.card-text a{
+	transition: all 0.35s ease-in-out;
+}
+
+
+/*分页*/
+.page-item.active .page-link {
+	background-color: rgb(33,33,33);
+	border-color: rgb(33,33,33);
+}
+.page-item .page-link {
+	z-index: 1;
+	color: #424242;
+}
+.page-item .page-link:focus {
+	z-index: 1;
+	box-shadow: none;
+}
